@@ -5,6 +5,8 @@ const defaultI18n = 'EN'
 const availableMonths = {
   EN: ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November',
     'December'],
+  ES: ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre',
+    'Diciembre'],
   ID: ['Januari', 'Februari', 'Maret', 'April', 'Mei', 'Juni', 'Juli', 'Agustus', 'September', 'Oktober', 'November',
     'Desember'],
   FR: ['Janvier', 'Février', 'Mars', 'Avril', 'Mai', 'Juin', 'Juillet', 'Août', 'Septembre', 'Octobre', 'Novembre',
@@ -15,6 +17,7 @@ const availableMonths = {
 
 const availableShortDays = {
   EN: ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'],
+  ES: ['Dom', 'Lun', 'Mar', 'Mié', 'Jue', 'Vie', 'Sab'],
   ID: ['Min', 'Sen', 'Sel', 'Rab', 'Kam', 'Jum', 'Sab'],
   FR: ['Dim', 'Lun', 'Mar', 'Mer', 'Jeu', 'Ven', 'Sam'],
   NL: ['Zon', 'Maa', 'Din', 'Woe', 'Don', 'Vri', 'Zat']
@@ -27,6 +30,13 @@ const presetRangeLabel = {
     lastMonth: 'Last Month',
     lastSevenDays: 'Last 7 Days',
     lastThirtyDays: 'Last 30 Days'
+  },
+  ES: {
+    today: 'Hoy',
+    thisMonth: 'Esto Mes',
+    lastMonth: 'Últimos Mes',
+    lastSevenDays: 'Últimos 7 Dias',
+    lastThirtyDays: 'Últimos 7 Dias'
   },
   ID: {
     today: 'Hari ini',
