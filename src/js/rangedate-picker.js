@@ -33,10 +33,10 @@ const presetRangeLabel = {
   },
   ES: {
     today: 'Hoy',
-    thisMonth: 'Esto Mes',
-    lastMonth: 'Últimos Mes',
-    lastSevenDays: 'Últimos 7 Dias',
-    lastThirtyDays: 'Últimos 7 Dias'
+    thisMonth: 'Este Mes',
+    lastMonth: 'Último Mes',
+    lastSevenDays: 'Últimos 7 Días',
+    lastThirtyDays: 'Últimos 30 Días'
   },
   ID: {
     today: 'Hari ini',
